@@ -32,9 +32,6 @@ public abstract class Task {
         return time;
     }
 
-    public String getDescription() {
-        return description;
-    }
 
     public void setTime(int time) {
         this.time = time;
@@ -44,7 +41,4 @@ public abstract class Task {
         this.name = name;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

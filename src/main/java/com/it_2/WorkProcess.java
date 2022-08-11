@@ -1,4 +1,5 @@
 package com.it_2;
+import com.it_2.customArrayList.CustomArrayList;
 import com.it_2.employees.Designer;
 import com.it_2.employees.*;
 import com.it_2.employees.AutomationQA;
@@ -18,7 +19,7 @@ public class WorkProcess {
 
     public static void workingProcessForDesigner() {
         List<Designer> designers = buildDesignDepartment();
-        List<Task> designersTasks = buildDesignTaskScope();
+        CustomArrayList<Task> designersTasks = buildDesignTaskScope();
 
         for (int j = 0; j < designers.size(); j++) {
             for (int i = 0; i < designersTasks.size(); i++) {
@@ -31,7 +32,7 @@ public class WorkProcess {
 
     public static void workingProcessForDevelopers() {
         List<Developer> developers = buildDeveloperDepartment();
-        List<Task> developersTasks = buildDevelopmentTaskScope();
+        CustomArrayList<Task> developersTasks = buildDevelopmentTaskScope();
 
         for (int j = 0; j < developers.size(); j++) {
             for (int i = 0; i < developersTasks.size(); i++) {
@@ -44,7 +45,7 @@ public class WorkProcess {
 
     public static void workingProcessForQA() {
         List<Employee> QA = buildTestingDepartment();
-        List<Task> QATasks = buildTestingTaskScope();
+        CustomArrayList<Task> QATasks = buildTestingTaskScope();
 
         for (int j = 0; j < QA.size(); j++) {
             for (int i = 0; i < QATasks.size(); i++) {
@@ -96,8 +97,8 @@ public class WorkProcess {
         return QA;
     }
 
-    private static List<Task> buildDesignTaskScope() {
-        List<Task> designTasks = new LinkedList<>();
+    private static CustomArrayList<Task> buildDesignTaskScope() {
+        CustomArrayList<Task> designTasks = new CustomArrayList<>();
         int numberOfTasks = getNumber("scope for designers", "tasks");
         for (int i = 0; i < numberOfTasks; i++) {
             designTasks.add(new Design("new design system part " + (i + 1), 10));
@@ -105,8 +106,8 @@ public class WorkProcess {
         return designTasks;
     }
 
-    private static List<Task> buildDevelopmentTaskScope() {
-        List<Task> developmentTasks = new LinkedList<>();
+    private static CustomArrayList<Task> buildDevelopmentTaskScope() {
+        CustomArrayList<Task> developmentTasks = new CustomArrayList<>();
         int numberOfTasks = getNumber("scope for developers", "tasks");
         for (int i = 0; i < numberOfTasks; i++) {
             developmentTasks.add(new Development("for user management part  " + (i + 1), 20));
@@ -114,8 +115,8 @@ public class WorkProcess {
         return developmentTasks;
     }
 
-    private static List<Task> buildTestingTaskScope() {
-        List<Task> testingTasks = new LinkedList<>();
+    private static CustomArrayList<Task> buildTestingTaskScope() {
+        CustomArrayList<Task> testingTasks = new CustomArrayList<>();
         int numberOfTasks = getNumber("scope for QA", "tasks");
         for (int i = 0; i < numberOfTasks; i++) {
             testingTasks.add(new Testing("for user management module part " + (i + 1), 25));
