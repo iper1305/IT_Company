@@ -1,9 +1,9 @@
 package com.it_2.employees;
 
 import com.it_2.tasks.Task;
-import com.it_2.tools.DocumentationTools;
+import com.it_2.tools.iDocumentationTools;
 
-public class ManualQA<T extends DocumentationTools> extends Employee<T> {
+public class ManualQA<T extends iDocumentationTools> extends Employee<T> {
     public ManualQA(String jobTitle, T tool) {
         super(jobTitle, tool);
     }

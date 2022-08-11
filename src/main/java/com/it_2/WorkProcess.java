@@ -11,7 +11,7 @@ import com.it_2.tasks.Task;
 import com.it_2.tasks.Testing;
 import com.it_2.tools.Figma;
 import com.it_2.tools.InteliJIDEA;
-import com.it_2.tools.XRay;
+import com.it_2.tools.iXRay;
 
 import java.util.*;
 
@@ -87,7 +87,7 @@ public class WorkProcess {
 
 
         for (int i = 0; i < numberOfManualQA; i++) {
-            QA.add(new ManualQA<>("Manual QA" + (i + 1), new XRay()));
+            QA.add(new ManualQA<>("Manual QA" + (i + 1), new iXRay()));
         }
 
         for (int i = 0; i < numberOAutomationQA; i++) {

@@ -1,9 +1,9 @@
 package com.it_2.employees;
 
 import com.it_2.tasks.Task;
-import com.it_2.tools.Java;
+import com.it_2.tools.iJava;
 
-public class Developer<T extends Java> extends Employee<T> {
+public class Developer<T extends iJava> extends Employee<T> {
     public Developer(String jobTitle, T tool) {
         super(jobTitle, tool);
     }

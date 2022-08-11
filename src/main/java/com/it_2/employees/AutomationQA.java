@@ -1,9 +1,9 @@
 package com.it_2.employees;
 
 import com.it_2.tasks.Task;
-import com.it_2.tools.Java;
+import com.it_2.tools.iJava;
 
-public class AutomationQA<T extends Java> extends Employee<T> {
+public class AutomationQA<T extends iJava> extends Employee<T> {
     public AutomationQA(String jobTitle, T tool) {
         super(jobTitle, tool);
     }
