@@ -12,7 +12,7 @@ class SomeThread implements Runnable {
     public void run() {
         Log.info(Thread.currentThread().getName() + " start = " + message);
         processmessage();
-        System.out.println(Thread.currentThread().getName() + " finish");
+        Log.info(Thread.currentThread().getName() + " finish");
     }
 
     private void processmessage() {
