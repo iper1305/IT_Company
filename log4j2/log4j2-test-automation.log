@@ -1,0 +1,17 @@
+[INFO ] 2022-08-29 12:30:15.026 [main] Log - The 'QA' word occurs 6 times in the text.
+[INFO ] 2022-08-29 12:50:04.711 [main] Log -  You need to create tasks for your team. How many tasks for Business Analytic will be in release?
+[INFO ] 2022-08-29 12:50:35.496 [main] Log -  You need to create tasks for your team. How many tasks for Business Analytic will be in release?
+[INFO ] 2022-08-29 12:53:10.047 [main] Log - You are a Project Manager. You coordinate and create tasks for the team.
+[INFO ] 2022-08-29 12:53:10.060 [main] Log -  You need to create tasks for your team. How many tasks for Business Analytic will be in release?
+[INFO ] 2022-08-29 16:03:28.907 [main] Log - You are a Project Manager. You coordinate and create tasks for the team.
+[INFO ] 2022-08-29 16:03:28.915 [main] Log - Your team include next specialist: 
+[INFO ] 2022-08-29 16:03:28.917 [main] Log -  You need to create tasks for your team. How many tasks for Business Analytic will be in release?
+[INFO ] 2022-08-29 18:26:38.441 [main] Log - null
+[INFO ] 2022-08-29 18:26:38.444 [main] Log - defaultName
+[INFO ] 2022-08-29 18:33:02.274 [main] Log - null
+[INFO ] 2022-08-29 18:33:02.277 [main] Log - defaultFirstName
+[INFO ] 2022-08-29 18:34:21.637 [main] Log - This is default person
+[INFO ] 2022-08-29 18:34:21.640 [main] Log - null
+[INFO ] 2022-08-29 18:34:21.640 [main] Log - defaultFirstName
+[INFO ] 2022-08-29 18:34:54.139 [main] Log - This is default person
+[INFO ] 2022-08-29 18:34:54.141 [main] Log - defaultFirstName
