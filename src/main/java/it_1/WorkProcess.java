@@ -27,7 +27,7 @@ public class WorkProcess {
     }
 
     private int getNumber(String position) {
-        Log.info(" You need to create tasks for your team." +
+        Log.info("You need to create tasks for your team." +
                 " How many tasks for " + position + " will be in release?");
         Scanner scan = new Scanner(System.in);
         int number;

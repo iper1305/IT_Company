@@ -1,6 +1,6 @@
 package it_1.functionalInterface;
 
 @FunctionalInterface
-public interface CustomInterface {
+public interface iCustomInterface {
         void display();
 }
